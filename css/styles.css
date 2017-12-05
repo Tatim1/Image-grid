@@ -1,0 +1,29 @@
+ * { 
+box-sizing: border-box;
+ }
+
+h1 {
+	margin: 20px 0;
+	color: #656D6C;
+}
+ 
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+.ba-container {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+} 
+
+
+.ba-grid > [class*="ba-width-"] > img:hover,
+.ba-grid > [class*="ba-width-"] > img:active,
+.ba-grid > [class*="ba-width-"] > img:focus {
+	cursor: pointer;
+	opacity: .5;
+}
+
+
